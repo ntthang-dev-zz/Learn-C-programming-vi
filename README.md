@@ -2,7 +2,7 @@
 
 ## Giới thiệu 
 
-Ngôn ngữ [C](https://en.wikipedia.org/wiki/C_(programming_language)) không còn quá xa lạ trong giới lập trình nữa. Đây là một ngôn ngữ dễ học, dễ dùng và được ứng dụng nhiều trong các lĩnh vực khoa học kỹ thuật.
+Ngôn ngữ [C](https://bitly.com.vn/kjx298) không còn quá xa lạ trong giới lập trình nữa. Đây là một ngôn ngữ dễ học, dễ dùng và được ứng dụng nhiều trong các lĩnh vực khoa học kỹ thuật.
 
 Ngôn ngữ lập trình C là một ngôn ngữ mệnh lệnh được phát triển từ đầu thập niên 1970 bởi Dennis Ritchie để dùng trong hệ điều hành UNIX. Từ đó, ngôn ngữ này đã lan rộng ra nhiều hệ điều hành khác và trở thành một những ngôn ngữ phổ dụng nhất. C là ngôn ngữ rất có hiệu quả và được ưa chuộng nhất để viết các phần mềm hệ thống, mặc dù nó cũng được dùng cho việc viết các ứng dụng. Ngoài ra, C cũng thường được dùng làm phương tiện giảng dạy trong khoa học máy tính mặc dù ngôn ngữ này không được thiết kế dành cho người nhập môn.
 
@@ -23,6 +23,7 @@ Tất cả các bạn có đam mê lập trình C và thích tìm hiểu về C.
 Bộ tài liệu này được tôi biên soạn dựa trên kiến thức và kinh nghiệm tích lũy trong quá trình bắt đầu và làm việc với ngôn ngữ C. Đồng thời tôi có tham khảo các tài liệu bên ngoài như :
 
 -[C Programming at Wikibooks](https://en.wikibooks.org/wiki/C_Programming/Why_learn_C%3F)
+
 -[C Programming Language, 2nd Edition by Brian W. Kernighan](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628)
 
 ## Mục lục
