@@ -21,6 +21,7 @@ Tất cả các bạn có đam mê lập trình C và thích tìm hiểu về C.
 ## Tài liệu tham khảo
 
 Bộ tài liệu này được tôi biên soạn dựa trên kiến thức và kinh nghiệm tích lũy trong quá trình bắt đầu và làm việc với ngôn ngữ C. Đồng thời tôi có tham khảo các tài liệu bên ngoài như :
+
 -[C Programming at Wikibooks](https://en.wikibooks.org/wiki/C_Programming/Why_learn_C%3F)
 -[C Programming Language, 2nd Edition by Brian W. Kernighan](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628)
 
