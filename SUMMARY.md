@@ -2,7 +2,7 @@
 
 * [Learn C Programing](README.md)
 
-## Chương 1 : Giới thiệu
+## Chương 1 : Giới thiệu <a id="ch1-introduction"></a>
 
-* [Giới thiệu ngôn ngữ lập trình C](chuong-1-gioi-thieu/untitled-1.md)
+* [1.1 - Giới thiệu ngôn ngữ lập trình C 👩‍💻](ch1-introduction/untitled-1.md)
 

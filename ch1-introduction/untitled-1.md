@@ -1,8 +1,8 @@
 ---
-description: Độ khó - Dễ
+description: "Độ khó - Dễ \U0001F31E"
 ---
 
-# Giới thiệu ngôn ngữ lập trình C
+# 1.1 - Giới thiệu ngôn ngữ lập trình C 👩‍💻
 
 C là một ngôn ngữ lập trình thủ tục. Ban đầu nó được phát triển bởi Dennis Ritchie vào năm 1972. Nó chủ yếu được phát triển như một ngôn ngữ lập trình hệ thống để viết một hệ điều hành. Các tính năng chính của ngôn ngữ C bao gồm quyền truy cập cấp thấp vào bộ nhớ, một bộ từ khóa đơn giản và phong cách gọn gàng, những tính năng này làm cho ngôn ngữ C phù hợp với các lập trình hệ thống như phát triển hệ điều hành hoặc trình biên dịch.
 
