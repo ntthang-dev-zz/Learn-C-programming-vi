@@ -4,5 +4,5 @@
 
 ## 🌱 Chương 1 : Giới thiệu <a id="ch1-introduction"></a>
 
-* [1.1 - Giới thiệu ngôn ngữ lập trình C 👩‍💻](ch1-introduction/untitled-1.md)
+* [1.1 - Giới thiệu ngôn ngữ lập trình C 👩‍💻](ch1-introduction/1-gioi-thieu-ngon-ngu-lap-trinh-c.md)
 
