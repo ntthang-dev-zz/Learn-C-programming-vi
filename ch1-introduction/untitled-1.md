@@ -8,13 +8,13 @@ C là một ngôn ngữ lập trình thủ tục. Ban đầu nó được phát 
 
 Nhiều ngôn ngữ sau này đã vay mượn cú pháp / tính năng trực tiếp hoặc gián tiếp từ ngôn ngữ C. Giống như cú pháp của Java, PHP, JavaScript và nhiều ngôn ngữ khác chủ yếu dựa trên ngôn ngữ C. C++ gần như là một tập hợp siêu ngôn ngữ C \(Có rất ít chương trình có thể biên dịch bằng C, nhưng không phải với C++\).
 
-## Bắt đầu với lập trình C
+## 🧪 Bắt đầu với lập trình C
 
-### Cấu trúc của một chương trình
+### Cấu trúc của một chương trình 📝
 
-Sau phần khi giới thiệu ở trên, chúng ta có thể chính thức đánh giá cấu trúc của một chương trình C, có nghĩa là bất kỳ chương trình nào cũng chỉ có thể được viết trong cấu trúc này. Viết một chương trình C trong bất kỳ cấu trúc nào khác do đó sẽ dẫn đến _Lỗi biên dịch \( Compilation Error \)_.
+Sau phần khi giới thiệu ở trên, chúng ta có thể chính thức đánh giá cấu trúc của một chương trình C, có nghĩa là bất kỳ chương trình nào cũng chỉ có thể được viết trong cấu trúc này. Viết một chương trình C trong bất kỳ cấu trúc nào khác do đó sẽ dẫn đến _Lỗi biên dịch \( Compilation Error \)_. 😖
 
-Cấu trúc của một chương trình C như sau:
+Cấu trúc của một chương trình C như sau: 😀
 
 | Thành phần cấu trúc | Ví dụ |
 | :--- | :--- |
@@ -24,21 +24,21 @@ Cấu trúc của một chương trình C như sau:
 | body \( các lệnh và biểu thức \) | `printf("%d",a);` |
 | return \( trả giá trị về nếu có \) | `return 0;  }` |
 
-Các thành phần của cấu trúc trên là:
+Các thành phần của cấu trúc trên là 😮:
 
-#### Header
+#### Header 🎈
 
-Thành phần đầu tiên và quan trọng nhất là bao gồm các tệp Header trong chương trình C. Tệp tiêu đề là tệp `extension .h` trong đó chứa các khai báo hàm C và các định nghĩa `macro` sẽ được chia sẻ giữa một số tệp nguồn.
+Thành phần đầu tiên và quan trọng nhất là bao gồm các tệp Header trong chương trình C. Tệp tiêu đề là tệp `extension .h` trong đó chứa các khai báo hàm C và các định nghĩa `macro` sẽ được chia sẻ giữa một số tệp nguồn. 📑
 
 Một Header file là một file với định dạng`.h` chứa các khai báo hàm và định nghĩa marco và có thể được chia sẻ qua nhiều file nguồn. Có 2 loại Header file là : File mà lập trình viên viết ra và file đi kèm với trình biên dịch của bạn.
 
-Bạn yêu cầu việc sử dụng Header file trong chương trình bởi việc thêm nó vào chương trình, với ký tự tiền xử lý `#include` như việc bạn thêm `stdio.h` vào phần Header file, nó sẽ đi kèm với trình biên dịch của bạn.
+Bạn yêu cầu việc sử dụng Header file trong chương trình bởi việc thêm nó vào chương trình, với ký tự tiền xử lý `#include` như việc bạn thêm `stdio.h` vào phần Header file, nó sẽ đi kèm với trình biên dịch của bạn .
 
 Việc bao gồm Header file tương đương với việc bạn sao chép nội dụng của Header file nhưng bạn không cần phải làm như thế, mà chỉ cần `#include`, code bạn sẽ gọn và đẹp hơn mà vẫn sử dụng được nội dung của Header file.
 
 Trong thực tế chương trình C và C++ chúng ta lưu trữ hầu hết các hằng số, `marco` và biến toàn cục và các nguyên mẫu của hàm trong các Header file và `include` các file này khi bạn cần sử dụng.
 
-Các thư viện chuẩn ANSI C
+Các thư viện chuẩn ANSI C 📕
 
 * `<assert.h>`: Bao gồm macro assert dùng để hỗ trợ trong việc phát hiện các lỗi lô-gíc và các kiểu lỗi khác trong các phiên bản dùng để tìm lỗi của một chương trình.
 * `<complex.h>`: Một tập hợp các hàm dùng để điều chỉnh các số phức \(mới có trong chuẩn **C99**\).
@@ -124,7 +124,7 @@ int main()
 }
 ```
 
-## Chương trình đầu tiên
+## 🌲 Chương trình đầu tiên
 
 Sau đây là chương trình đầu tiên trong C
 
@@ -139,25 +139,25 @@ int main(void)
 
 Hãy cùng tôi phân tích chương trình từng dòng.
 
-### Dòng 1: `#include`\`
+### 🌻 Dòng 1: `#include`\`
 
 Trong chương trình C, tất cả các dòng bắt đầu bằng `#` đều được xử lý bởi [bộ tiền xử lý - preprocessor](https://en.wikipedia.org/wiki/C_preprocessor) là một chương trình được gọi bởi trình biên dịch. Trong một thuật ngữ rất cơ bản, [bộ tiền xử lý](https://en.wikipedia.org/wiki/C_preprocessor) lấy một chương trình C và tạo ra một chương trình C khác. Chương trình đã tạo không có dòng nào bắt đầu bằng `#`, tất cả các dòng như vậy đều được xử lý bởi bộ tiền xử lý. Trong ví dụ trên, bộ xử lý trước sao chép mã được xử lý trước của `stdio.h` vào tệp của tôi. Các tệp `.h` được gọi là tệp tiêu đề \(header file\) trong C. Các tệp tiêu đề này thường chứa khai báo các hàm. Các tệp `.h` được gọi là tệp tiêu đề \(header file\) trong C. Các tệp tiêu đề này thường chứa khai báo các hàm. Ta cần `stdio.h` cho hàm `printf()` đã được sử dụng trong chương trình trên.
 
-### Dòng 2: `int main(void)`
+### 🌱 Dòng 2: `int main(void)`
 
 Điểm bắt đầu từ nơi bắt đầu thực thi chương trình C đã biên dịch. Trong C, việc thực thi thường bắt đầu bằng dòng đầu tiên của `main ()`. Khoảng trống được viết trong ngoặc cho biết rằng main không nhận bất kỳ tham số nào .`main ()` cũng có thể được viết để nhận các tham số. Chúng tôi sẽ đề cập đến vấn đề đó trong các bài viết trong tương lai.
 
 `int` được viết trước main cho biết kiểu trả về của`main ()`. Giá trị được trả về \(return\) bởi `main` cho biết trạng thái kết thúc chương trình.
 
-### Dòng 3 và 6: `{and}`
+### 🌵 Dòng 3 và 6: `{and}`
 
 Trong ngôn ngữ C, một cặp dấu ngoặc nhọn xác định phạm vi và chủ yếu được sử dụng trong các hàm và câu lệnh điều khiển như vòng lặp `if`, `else`, ... Tất cả các hàm phải bắt đầu và kết thúc bằng dấu ngoặc nhọn.
 
-### Dòng 4: `printf("C-For-Beginners")`
+### 🌴 Dòng 4: `printf("C-For-Beginners")`
 
 [`printf()`](http://www.cplusplus.com/reference/cstdio/printf/) là một chức năng thư viện tiêu chuẩn để in thứ gì đó trên đầu ra tiêu chuẩn. Dấu chấm phẩy ở cuối `printf` cho biết kết thúc dòng. Trong C, dấu chấm phẩy luôn được sử dụng để biểu thị kết thúc câu lệnh.
 
-### Dòng 5: `return 0;`
+### 🍀 Dòng 5: `return 0;`
 
 Inorder để thực thi chương trình trên, chúng ta cần có một trình biên dịch để biên dịch và chạy các chương trình của mình. Có một số trình biên dịch trực tuyến nhất định như [http://ideone.com/](http://ideone.com/) hoặc [http://codepad.org/](http://codepad.org/) có thể được sử dụng để khởi động C mà không cần cài đặt trình biên dịch.
 
