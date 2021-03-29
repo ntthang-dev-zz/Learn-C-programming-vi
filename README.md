@@ -1,5 +1,11 @@
 # Learn C Programing
 
+[![GitHub license](https://img.shields.io/github/license/ntthang-dev/Learn-C-programming-vi)](https://github.com/ntthang-dev/Learn-C-programming-vi/blob/master/LICENSE) 
+[![version](https://img.shields.io/github/contributors/ntthang-dev/Learn-C-programming-vi)](#tham-gia-phát-triển)
+![version](https://img.shields.io/github/last-commit/ntthang-dev/Learn-C-programming-vi)
+[![version](https://img.shields.io/github/issues-raw/ntthang-dev/Learn-C-programming-vi)](https://github.com/ntthang-dev/Learn-C-programming-vi/issues)
+
+
 ## ✨ Giới thiệu 
 
 ![](.gitbook/assets/c-programming-online-training-nareshit.jpg)
