@@ -6,11 +6,11 @@ description: "Độ khó - Dễ \U0001F31E"
 
 Trong ngôn ngữ lập trình C, từ khóa phổ biến nhất `int` được sử dụng để xác định bất kỳ số nguyên dương hoặc số nguyên âm nào. Nhưng có một sự khác biệt giữa số nguyên và các số khác có thể được biểu diễn với sự trợ giúp của từ khóa `int`. 😃
 
-Không phải mọi số nguyên đều có thể đều có thể hiện thị bằng từ khóa `int`. Theo `MinGW` kích thước của một `int` là `4 bytes` bằng `32bit` (1 bytes = 8 bit). Nó vẫn là một bí ẩn , ở đâu đó nơi mà `int` có thể đại diện cho một số nguyên hoặc `int` được sử dụng để đại diện cho các số nguyên. Số nguyên là một loại số rất lớn mà `int` có một số lượng bộ nhớ hạn chế và chính xác (kích thước của `int` là 4 bytes hoặc 32 bit) để lưu trữ những gì đang được đại diện bới nó. 😨
+Không phải mọi số nguyên đều có thể đều có thể hiện thị bằng từ khóa `int`. Theo `MinGW` kích thước của một `int` là `4 bytes` bằng `32bit` \(1 bytes = 8 bit\). Nó vẫn là một bí ẩn , ở đâu đó nơi mà `int` có thể đại diện cho một số nguyên hoặc `int` được sử dụng để đại diện cho các số nguyên. Số nguyên là một loại số rất lớn mà `int` có một số lượng bộ nhớ hạn chế và chính xác \(kích thước của `int` là 4 bytes hoặc 32 bit\) để lưu trữ những gì đang được đại diện bới nó. 😨
 
 ## 📒 Số nguyên có dấu
 
-Kiểu `int` trong ngôn ngữ lập trình C có thể lưu các số cho đến `2147483647`. Ngoài con số này, `int` không được lưu trữ chính xác và thậm chí không chính xác. `int` là kiểu dữ liệu `32 bit`. Bất cứ khi nào một số được gán cho một biến loại `int`, trước tiên nó được chuyển đổi thành biểu diễn nhị phân của nó với các con số 0 và 1 và nó được lưu trữ trong bộ nhớ tại một vị trí cụ thể. Một `int` thực sự là 1 bit dấu hiệu cộng với 31 bit dữ liệu, đó là `31 bit` có sẵn để lưu trữ số được gán cho biến loại `int` và `1 bit` được dành riêng để gán dấu của số là âm (-) hoặc dương (+). Dấu cũng được biểu diễn bằng các số nhị phân với 0 là cho dương và 1 là cho âm. 😎 
+Kiểu `int` trong ngôn ngữ lập trình C có thể lưu các số cho đến `2147483647`. Ngoài con số này, `int` không được lưu trữ chính xác và thậm chí không chính xác. `int` là kiểu dữ liệu `32 bit`. Bất cứ khi nào một số được gán cho một biến loại `int`, trước tiên nó được chuyển đổi thành biểu diễn nhị phân của nó với các con số 0 và 1 và nó được lưu trữ trong bộ nhớ tại một vị trí cụ thể. Một `int` thực sự là 1 bit dấu hiệu cộng với 31 bit dữ liệu, đó là `31 bit` có sẵn để lưu trữ số được gán cho biến loại `int` và `1 bit` được dành riêng để gán dấu của số là âm \(-\) hoặc dương \(+\). Dấu cũng được biểu diễn bằng các số nhị phân với 0 là cho dương và 1 là cho âm. 😎
 
 Để hình dung cho vấn đề trên chúng ta hãy xem qua ví dụ sau đây 😀 :
 
@@ -36,3 +36,4 @@ Trong trường hợp nếu số nguyên không có dấu, chỉ có thể lưu 
 (1 × 2⁶) + (1 × 2⁵) + (1 × 2⁴) + (1 × 2³) + (1 × 2²) + 
 (1 × 2¹) + (1 × 2⁰) = (4294967295)₁₀
 ```
+
